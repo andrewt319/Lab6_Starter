@@ -103,8 +103,7 @@ function initFormHandler() {
   //            then save the recipes array back to localStorage
   let allRecipes = getRecipesFromStorage();
   allRecipes.push(recipeObject);
-  console.log(recipeObject)
-  console.log(allRecipes)
+
   saveRecipesToStorage(allRecipes);
   })
 
